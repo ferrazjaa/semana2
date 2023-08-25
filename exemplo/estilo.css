@@ -1,0 +1,56 @@
+/*acabar com os espaçamentos assim a div pode ocupar maior espaço*/
+html, body {
+    margin: 0;
+}
+
+#imagem_fundo {
+    background: url("fundo.jpg"); /* imagem de fundo*/
+    height: 100%; /*Ocupação da qualquer tela em 100% */
+    text-align: center; /*porque o titulo e o subtitulo estão aqui dentro dessa div, assim evita repetição*/
+    background-size: cover; /* vai preencher*/
+    
+}
+
+/* h1 */
+#titulo {
+    color: white;
+    padding-top: 20%;  /* espaçamento do topo será de 20% */
+    font-size: 70px; /*Tamanho da letra */
+    line-height: 0.6;
+    
+}
+
+/* h2 */
+#subtitulo {
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    text-shadow: 1px 1px  black;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.icone{
+    width: 51px; /*tamanho da minha imagem*/
+}
+
+/* Quero que se aplica todas as minhas sections */
+section{
+    padding: 20px;
+}
+
+.destaque{
+    background-color: rgb(148, 144, 144);
+    
+}
+
+.imgEco{
+    /* class="especialParaImagensEspeciais" */
+    width: 80%; /* ocupará 80% da tela */
+
+}
