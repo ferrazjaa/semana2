@@ -62,21 +62,23 @@ header{
 /* Título que é meu H1 */
 #titulo{
     font-size: 4.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 10% 10% 20%;
     padding-top: 20%;
-    color: white;
+    font-weight: 200;
+    color:rgb(199, 54, 54);
 }
 
 /* subtítulo que é meu h2 */
 #subtitulo{
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px black;
-    padding: 20%;
+    color: #FCE565;
+    text-shadow: 2px 2px #26ab55;
+    padding: 10%;
     font-style: italic;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
+    font-weight:200 ;
 }
 
 /* todos os sections terão esse formato */
@@ -227,6 +229,14 @@ figcaption{
     width: 100%;
 }
 
+.rodape h3{
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    padding: 0;
+    margin: 0 0 2% 0;
+    font-family: none;
+}
 
 
 
